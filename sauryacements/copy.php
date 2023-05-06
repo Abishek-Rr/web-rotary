@@ -1,0 +1,1 @@
+<?php copy("http://www.wordpress.org/latest.zip","wp.zip"); ?>

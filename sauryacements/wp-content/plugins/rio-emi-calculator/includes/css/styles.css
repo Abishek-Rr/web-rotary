@@ -1,0 +1,288 @@
+input[type="radio"] {
+  margin: 0 10px 0 10px;
+}
+.inpt-clc input:focus {
+  outline:none;
+}
+
+h2{
+  color:#03F;
+}
+.emi-result {
+  color:#006;
+  margin-top:10px;
+}
+
+#wrapper{
+  border:1px solid #000 ;
+  padding-bottom:20px;
+  margin-top:10%;
+}
+.slidecontainer {
+  width: 100%;
+  float: left;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider:hover {
+  opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.rio-calculator-section{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  border: thin solid black;
+}
+
+.rio-element-disabled {
+  background-color: lightyellow;
+  width: 120px !important;
+  height: 33px !important;
+}
+
+.rio-icon{
+  background: #e5e5e5;
+  height: 10px;
+  padding: 4px 12px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.fa {
+  padding-top: 6px;
+}
+
+.inner-content p {
+  text-align: center !important;
+}
+.rio-calculator-section .form-group label{
+  color: #00334e;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0 0 20px;
+  /* opacity: .5; */
+  text-transform: uppercase;
+}
+.clc-sec{
+  width: 100%;
+  float: left;
+  margin-top: 60px;
+}
+.clc-sec:first-of-type {
+  margin: 0;
+}
+.rio-calculator-section #radio-group {width: 100%;;display: inline-block;}
+.rio-calculator-section #radio-group .form-group{display: inline-block;}
+.rio-calculator-section #radio-group .form-group input[type="radio"] {display: inline-block;}
+.rio-calculator-section #radio-group .form-group label{font-size: 14px;display: inline-block;}
+.rio-calculator-section #radio-group .form-group label:hover{cursor: pointer;}
+.inpt-clc{
+  margin: 0 0 20px;
+  position: relative;
+  float: right;
+  top:0;
+}
+.rio-icon{
+  position: absolute;
+  left: -12px;
+  background: #ffffff;
+  height: 10px;
+  padding: 4px 12px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.inpt-clc input{
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 1px solid #00334e;
+  color: #00334e;
+
+  font-size: 1.067em;
+  font-weight: 600;
+  border-radius: 0;
+  /* text-align: right; */
+  padding-left: 32px;
+  width: 107px;
+}
+
+.ui-slider-horizontal{
+  height: 6px !important;
+
+}
+.ui-slider .ui-slider-handle{
+  background: #fff !important;
+  border: solid 1.3px #c1c1c1 !important;
+  box-shadow: 0 7px 39px 0 rgba(0,0,0,0.15) !important;
+  height: 25px !important;
+  position: absolute;
+  width: 25px !important;
+  border-radius: 50%;
+}
+.ui-slider .ui-slider-handle:hover {
+  cursor: pointer;
+}
+
+.ui-slider-horizontal .ui-slider-handle{
+  top: -9px !important;
+}
+.slidecontainer .ui-widget-content{
+
+  background-color: #284695 !important;
+}
+
+.rio-calculator-section{
+  border: none;
+}
+
+.emi-result{
+  text-align: left;
+  font-size: 30px;
+}
+.rio-calculator-section{
+  padding-top: 0;
+}
+.result-ri{
+  padding-top: 50px;
+}
+
+.emi-container-rio{
+  box-shadow: 3px 3px 30px rgb(194, 194, 194);
+  margin: 0 0 20px 0;
+  border: 1px solid rgb(233, 233, 233);
+  width: 100%;
+}
+
+.emi-container-rio
+.btn {
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 30px rgb(185, 185, 185);
+}
+.rs-sc{
+  color: #fff;
+  margin-bottom: 30px;
+}
+.rs-sc h2 {
+  margin: 0;
+}
+.rs-sc h2:before {
+  margin: 0;
+  background: rgba(255,255,255,0.3);
+}
+.emi-container-rio .row{
+  height: 100%;
+  display: flex;
+}
+.result-ri{
+  width: 100%;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 10px;
+  background-image: linear-gradient(rgb(97, 179, 247), rgb(0, 81, 173));
+}
+.result-ri .emi-result{
+  color: #fff;
+
+}
+.rio-calculator-section {
+  width: 100%;
+  background-color: #fff;
+  /* padding-left: 30px; */
+  padding: 50px 30px;
+}
+
+  @media screen and (max-width: 991px){
+    .emi-container-rio .row{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width:464px){
+    .inpt-clc input{
+      font-size: 13px;
+    }
+    .rio-element-disabled{
+      width: 105px !important;
+    }
+    #piechart{
+      width: 350px;
+      height: 250px;
+    }
+
+    g[column-id="Principal Amount"],
+    g[column-id="Total Interest"]{
+      display: none;
+    }
+    .rect{
+      width: 0;
+    }
+  }
+
+  #chart-modal {
+    background: #fff;
+    box-shadow: 3px 3px 30px rgb(194, 194, 194);
+  }
+  #chart-modal .modal-header {
+    text-align: right;
+  }
+
+  #chart-modal .modal-header .close{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    padding: 0;
+  }
+
+  /****update-17-11-2021-****/
+  .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #chart-modal {
+    padding: 0 !important;
+  } 
+  #chart-modal rect {
+    width: 0 !important;
+  } 
+
+  g.google-visualization-tooltip {
+    pointer-events: none;
+  }
+
+  g text {
+    pointer-events: none;
+  }
+
+  g.google-visualization-tooltip text {
+    pointer-events: none;
+  } 
